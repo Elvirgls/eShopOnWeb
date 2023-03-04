@@ -15,6 +15,11 @@ public class CatalogItemViewModelService : ICatalogItemViewModelService
         _catalogItemRepository = catalogItemRepository;
     }
 
+    public List<CatalogItemViewModel> AddToWishList(CatalogItemViewModel item)
+    {
+        throw new NotImplementedException();
+    }
+
     public async Task UpdateCatalogItem(CatalogItemViewModel viewModel)
     {
         var existingCatalogItem = await _catalogItemRepository.GetByIdAsync(viewModel.Id);

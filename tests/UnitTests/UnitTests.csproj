@@ -28,6 +28,14 @@
 
   <ItemGroup>
     <Folder Include="ApplicationCore\Helpers\" />
+    <Folder Include="Web\Catalog\" />
+    <Folder Include="Web\Catalog\WishList\" />
+    <Folder Include="Web\Catalog\WishList\TestData\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Web\Catalog\" />
+    <None Remove="Web\Catalog\WishList\" />
+    <None Remove="Web\Catalog\WishList\TestData\" />
+  </ItemGroup>
 </Project>
